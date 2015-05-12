@@ -29,12 +29,20 @@ p {
 	font-size: 2vw;
 }
 
-header {
+main {
 	height: 536px;
 	margin-top: 0vw;
 	
 	padding: 1%;
 	margin-bottom: 5vw;
+/* 	position: relative; */
+}
+
+nav {
+	text-align: center;
+	font-size: 2.35vw;
+	position: relative;
+	top: 10%;
 }
 
 .banner {
@@ -46,6 +54,7 @@ header {
 	margin: auto;
 	text-align: center;
 	position: relative;
+	
 
 }
 
@@ -135,6 +144,7 @@ footer {
 }
 @media (min-width: 500px) {
 	.banner {
+	
 	}
 	
 	h1 {	
@@ -149,6 +159,7 @@ footer {
 
 @media (min-width: 750px) {
 	.banner {
+	background-color: blue;
 	}
 	
 	h1 {
@@ -168,14 +179,17 @@ footer {
 
 @media (min-width: 1047px) {
 	.banner {
+		background-color: green;
 	}
 	
 	h1 {
-	font-size: 39pt;	
-	letter-spacing: 11px;
-/* 	letter-spacing: 1vw; */
-
-}
+		font-size: 39pt;	
+		letter-spacing: 11px;
+	/* 	letter-spacing: 1vw; */
+	}
+	nav {
+		font-size: 18.4pt;
+	}
 	
 }
 
@@ -184,10 +198,15 @@ footer {
 	.banner {
 		width:73.4vw;
 		height:30vw;
+		
+		background-color: yellow;
 	}
 	h1 {
 		font-size: 3.8vw;
 		letter-spacing: 0.76vw;
+	}
+	nav {
+		font-size: 1.75vw;
 	}
 }
 
